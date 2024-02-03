@@ -3,22 +3,21 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
-.app.dark .container{
+main{
+  padding: 0 15%;
+}
+.app{
+border-bottom: 5px solid white;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 50px;
+}
+.dark {
   background-color: #0E1219;
+  border-bottom: 5px solid #0E1219;
 }
 
-.app.light .container{
+.light{
+  border-bottom: 5px solid white;
   background-color: rgb(255, 255, 255);
 }
 
-/* .app.dark p,
-.app.dark h3,
-.app.dark h1{
- color: white;
-}
-
-.app.light p,
-.app.light h3,
-.app.light h1{
- color: rgb(0, 0, 0);
-} */

@@ -90,3 +90,12 @@ export const dataLinkBtn = [
     alt: "net",
   },
 ];
+export const dataLinkNav = [
+  { id: 1, txt: "link" },
+  { id: 2, txt: "link" },
+  { id: 3, txt: "link" },
+  { id: 4, txt: "link" },
+  { id: 5, txt: "link" },
+  { id: 6, txt: "link" },
+  { id: 7, txt: "link" },
+];

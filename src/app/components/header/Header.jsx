@@ -40,8 +40,11 @@ const Header = () => {
       </div>
       <div className={style.nav}>
         <BtnLink dataLink={dataLink} wd={20} hg={20} />
-        <ButtonTheme />
-      </div>{" "}
+
+        <div className={style.buttonTheme}>
+          <ButtonTheme />
+        </div>
+      </div>
     </div>
   );
 };

@@ -1,4 +1,5 @@
 .container{
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,8 +22,9 @@
     font-size: 18px;
     color: white;
 @media (min-width: 810px) {
+
     display: flex;
-    }
+}
 }
 
 .nav,.buttonNav{
@@ -37,3 +39,11 @@
      margin-left: 20px;
 }
 
+.buttonTheme{
+    margin-left: 20px;
+    position: absolute;
+    right: 10px;
+    @media (min-width: 810px) { 
+        position: relative;
+       }
+}
