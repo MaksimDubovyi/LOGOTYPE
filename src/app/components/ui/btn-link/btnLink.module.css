@@ -1,0 +1,12 @@
+.buttonNav{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-size: 18px;
+    color: white;
+}
+
+.buttonNav{
+     margin-left: 20px;
+}
+
