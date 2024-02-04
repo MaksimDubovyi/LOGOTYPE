@@ -13,9 +13,11 @@
     background-size: cover;
     background-image: url('/icon-main-header-block/bg.webp');
   }
-  
+
   .sectionTop { 
     border-radius: 40px;
     height: 175px;
     background-color: #092b4c80;
+
+  
   }
