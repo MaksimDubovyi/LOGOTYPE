@@ -5,7 +5,7 @@ const Main = () => {
   return (
     <div className={style.container}>
       <LinkBlock />
-      {/* <HeaderBlock /> */}
+      <HeaderBlock />
     </div>
   );
 };
