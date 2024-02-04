@@ -1,0 +1,23 @@
+.container{
+    display: none;
+    width: 40px;
+    position: fixed;
+    top: 286px;
+    @media (min-width: 768px) {
+       display: block;
+    }
+
+}
+.container div:first-of-type {
+    border-top-right-radius:  10px;
+  }
+  .container div:last-of-type {
+    border-bottom-right-radius:  10px;
+  }
+.buttonNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}

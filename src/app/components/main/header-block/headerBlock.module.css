@@ -1,0 +1,21 @@
+.container{
+   margin: 0 15%;
+   height: 234px;
+   background-color: aqua;
+}
+
+.section {
+
+    border-radius: 40px;
+    height: 175px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/icon-main-header-block/bg.png');
+  }
+  
+  .sectionTop { 
+    border-radius: 40px;
+    height: 175px;
+    background-color: #092b4c80;
+  }

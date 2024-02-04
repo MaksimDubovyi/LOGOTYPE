@@ -3,8 +3,10 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
-main{
-  padding: 0 15%;
+html, body, #__next {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 .app{
 border-bottom: 5px solid white;
@@ -21,3 +23,7 @@ border-bottom: 5px solid white;
   background-color: rgb(255, 255, 255);
 }
 
+ul{ list-style: none;}
+li{
+  cursor: pointer;
+}

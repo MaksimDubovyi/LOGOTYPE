@@ -55,7 +55,7 @@
     outline: none; 
     border: none; 
   }
-.searchIcon{
+.searchIcon,.searchIconClose{
 cursor: pointer;
 display: inline-block;
 background-image: url("/icon-nav/menu.svg");
@@ -75,6 +75,11 @@ right:3%;
 }
 }
 
+.searchIconClose{
+    background-image: url("/icon-nav/close.svg");
+    width: 27px;
+height: 28px;
+}
 .navItemLight {
     color: #2A86E5;
 }
@@ -105,5 +110,14 @@ right:3%;
     @media (min-width: 768px) {
         background-color:#183A5D ;
     }
+ 
+}
+
+.navItemCloseLight {
+    background-image: url("/icon-nav/close.svg");
+}
+
+.navItemCloseDark{
+    background-image: url("/icon-nav/closeD.svg");
  
 }

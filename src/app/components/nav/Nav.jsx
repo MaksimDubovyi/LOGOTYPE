@@ -1,8 +1,42 @@
+"use client";
 import style from "./nav.module.css";
 import { dataLinkNav } from "@/app/dataMap/data";
 import { useTheme } from "@/app/context";
+import { useCallback, useEffect, useState } from "react";
 const Nav = () => {
-  const { theme } = useTheme();
+  const isBrowser = typeof window !== "undefined";
+  const [windowWidth, setWindowWidth] = useState(
+    isBrowser ? window.innerWidth : 0
+  );
+  const { theme, isSearch, setIsSearch } = useTheme();
+
+  const handleResize = useCallback(() => {
+    setWindowWidth(isBrowser ? window.innerWidth : 0);
+  }, [isBrowser]);
+
+  useEffect(() => {
+    if (isBrowser) {
+      window.addEventListener("resize", handleResize);
+      setWindowWidth(window.innerWidth);
+      if (windowWidth > 767) {
+        setIsSearch(false);
+      }
+      return () => {
+        window.removeEventListener("resize", handleResize);
+      };
+    }
+  }, [isBrowser, windowWidth, handleResize, setIsSearch]);
+
+  const onSearch = () => {
+    if (windowWidth < 767) {
+      setIsSearch(true);
+    } else {
+      console.log("windowWidth>800", windowWidth);
+    }
+  };
+  const onClose = () => {
+    setIsSearch(false);
+  };
   return (
     <section className={style.section}>
       <div className={style.navContainer}>
@@ -32,11 +66,36 @@ const Nav = () => {
           type="text"
           placeholder="Search for..."
         />
-        <span
+        {isSearch ? (
+          <>
+            {" "}
+            <>
+              <span
+                onClick={onClose}
+                className={`${style.searchIconClose} ${
+                  theme && windowWidth < 767
+                    ? style.navItemCloseDark
+                    : style.navItemCloseLight
+                }`}
+              ></span>
+            </>
+          </>
+        ) : (
+          <>
+            <span
+              onClick={onSearch}
+              className={`${style.searchIcon} ${
+                theme ? style.navItemDark : style.navItemLight
+              }`}
+            ></span>
+          </>
+        )}
+        {/* <span
+          onClick={onSearch}
           className={`${style.searchIcon} ${
             theme ? style.navItemDark : style.navItemLight
           }`}
-        ></span>
+        ></span> */}
       </div>
     </section>
   );
