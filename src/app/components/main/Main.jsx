@@ -15,7 +15,7 @@ const Main = () => {
               {/* <div className={style.itemImage}></div> */}
               <Image
                 src={"/icon-main/imgmain.webp"}
-                alt={item.alt}
+                alt={"item.altccc"}
                 priority={true}
                 width={347}
                 height={171}
