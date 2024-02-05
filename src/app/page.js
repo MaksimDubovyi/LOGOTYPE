@@ -7,7 +7,6 @@ import { SearchPage } from "./components/nav/search-page/SearchPage";
 import { Main } from "@/app/components/main/Main";
 export default function Home() {
   const { theme, isSearch } = useTheme();
-  console.log("isSearch", isSearch);
   return (
     <div className={`app ${theme ? "dark" : "light"}`}>
       <header>

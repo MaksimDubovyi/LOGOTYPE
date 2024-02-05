@@ -1,6 +1,8 @@
+import { useTheme } from "@/app/context";
 import style from "./textContent.module.css";
 
 const TextContent = () => {
+  const { theme } = useTheme();
   return (
     <div className={style.txtBlock}>
       <p className={style.txtBlockLink}>
@@ -8,7 +10,7 @@ const TextContent = () => {
         <strong> Lorem Ipsum is simply dummy</strong>
       </p>
       <h1 className={style.txtBlockTitle}>Lorem Ipsum is simply dummy</h1>
-      <p className={style.txtBlockTxt}>
+      <p className={`${style.txtBlockTxt} ${theme ? style.dark : style.light}`}>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry`s standard dummy text ever
         since the 1500s, when an unknown printer took a galley of type and
@@ -20,7 +22,11 @@ const TextContent = () => {
         of Lorem Ipsum.
       </p>
       <div style={{ marginLeft: "10px" }}>
-        <p className={style.articlesTxt}>Similar articles</p>
+        <p
+          className={`${style.articlesTxt} ${theme ? style.dark : style.light}`}
+        >
+          Similar articles
+        </p>
         <span className={style.articles}></span>
       </div>
     </div>

@@ -33,6 +33,18 @@ export const dataButtonCard = [
     text: "26 JANVIER 2023",
   },
 ];
+export const dataButtonCardD = [
+  {
+    src: "/icon-main/AlcoD.svg",
+    alt: "Alco",
+    text: "ALCO",
+  },
+  {
+    src: "/icon-main/janvierD.svg",
+    alt: "26 janvier 2023",
+    text: "26 JANVIER 2023",
+  },
+];
 export const dataButtonD = [
   {
     src: "/icon-header/telD.svg",

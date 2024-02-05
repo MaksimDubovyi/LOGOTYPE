@@ -1,15 +1,9 @@
-/* .container {
-    margin-left: 10vw;
-    user-select: none; 
-    @media (min-width: 788px) {
-        margin-left: 20px;
-    }
-  } */
   .customCheckbox
-{
+{   
     display: none;
 }
   .checkboxLable {
+     user-select: none; 
     display: inline-block;
     width: 54px;
     height: 29px;
