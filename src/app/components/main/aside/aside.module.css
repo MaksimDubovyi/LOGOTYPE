@@ -1,0 +1,29 @@
+.aside{
+    display: none;
+    width: 300px;
+    height: 600px;
+    border-radius: 20px;
+    background-image: url('/icon-main/ads.webp');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fcb738;
+    @media (min-width: 1200px) {
+
+       display: block;
+    }
+}
+
+.title,.sixe{
+
+    margin: 0;
+    padding-top: 240px;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    color: #FCFCFC;
+}
+.sixe{
+    font-size: 40px;
+    padding:0px
+}

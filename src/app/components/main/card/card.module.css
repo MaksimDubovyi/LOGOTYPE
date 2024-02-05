@@ -1,0 +1,52 @@
+.mainContentItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 18px;
+    border-radius: 20px;
+    width:350px ;
+    height:305px ; 
+    box-shadow: 0px 3px 16px 0px rgba(42, 135, 229, 0.163);
+    @media (min-width:1710px) {
+        width:387px ;
+        height:279px ; 
+    }
+}
+.mainContentImg{
+    border-radius: 20px;
+    width:300px ;
+    height:171px ;
+    @media (min-width: 810px) {
+        width:347px ;
+        height:171px ;
+    }
+}
+.itemTxt{
+    font-weight: 700;
+    font-size: 22px;
+    color: #2A86E5; 
+    line-height: 26px;
+    text-align: center;
+    width: 310px;
+    margin: 0px;
+    @media (min-width: 1200px) {
+     width: 347px;
+  }
+ }
+ 
+ .buttonNav{
+     display: flex;
+     align-items: center;
+     flex-wrap: nowrap;
+     font-size: 18px;
+  margin-left: 20px;
+  color: #B3B3B1;
+ }
+ 
+ .navBtn{
+      display: flex;
+     align-items: center;
+        flex-wrap: nowrap;
+        
+    }

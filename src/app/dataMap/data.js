@@ -20,6 +20,19 @@ export const dataButton = [
     text: "iOS",
   },
 ];
+
+export const dataButtonCard = [
+  {
+    src: "/icon-main/Alco.svg",
+    alt: "Alco",
+    text: "ALCO",
+  },
+  {
+    src: "/icon-main/janvier.svg",
+    alt: "26 janvier 2023",
+    text: "26 JANVIER 2023",
+  },
+];
 export const dataButtonD = [
   {
     src: "/icon-header/telD.svg",
