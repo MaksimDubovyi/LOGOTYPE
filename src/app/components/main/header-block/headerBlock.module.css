@@ -34,7 +34,7 @@
   .sectionTop { 
     border-radius: 40px;
     height: 129px;
-    background-color: #3f385d8e;
+    background-color: #3f385db7;
     @media (min-width: 800px) {
       height: 180px; 
    }
@@ -50,14 +50,13 @@
     height: 100%;
 }
 .contentLeft{
-  width: 50px;
-  height: 50px;
-  background-color: red;
+ 
+  
 }
 .contentRight{
-  width: 50px;
+  /* width: 50px;
   height: 50px;
-  background-color: rgb(0, 30, 255);
+  background-color: rgb(0, 30, 255); */
 }
 
   .nav{

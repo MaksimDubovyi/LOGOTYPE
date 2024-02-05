@@ -3,6 +3,7 @@ import { Nav } from "./nav/Nav";
 import { Rating } from "./rating/Rating";
 import { MoreInfo } from "./more-info/MoreInfo";
 import { useTheme } from "@/app/context";
+import { ContentLeft } from "./content-left/ContentLeft";
 const HeaderBlock = () => {
   const { theme } = useTheme();
   return (
@@ -13,7 +14,9 @@ const HeaderBlock = () => {
       <section className={style.section}>
         <div className={style.sectionTop}>
           <div className={style.content}>
-            <div className={style.contentLeft}></div>
+            <div className={style.contentLeft}>
+              <ContentLeft />
+            </div>
             <div className={style.contentRight}></div>
           </div>
         </div>
