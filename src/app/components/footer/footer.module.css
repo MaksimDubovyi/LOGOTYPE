@@ -67,6 +67,7 @@
     }
 }
 .link{
+  
     width: 50vw;
     flex-direction: column; list-style: none;
     @media (min-width: 760px) {
@@ -87,4 +88,8 @@
 .dark{
     color: white;
     background-color: #202434;
+}
+
+.ul{
+ margin-left: -10px;
 }

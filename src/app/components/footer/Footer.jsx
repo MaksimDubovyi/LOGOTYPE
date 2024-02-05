@@ -42,7 +42,9 @@ const Footer = () => {
             <h3>Categhory</h3>
             <ul>
               {dataButtonFoter.map((item) => (
-                <li key={item}>{item}</li>
+                <li className={style.ul} key={item}>
+                  {item}
+                </li>
               ))}
             </ul>
           </div>
@@ -50,7 +52,9 @@ const Footer = () => {
             <h3>Play better</h3>
             <ul>
               {dataButtonFoter.map((item) => (
-                <li key={item}>{item}</li>
+                <li className={style.ul} key={item}>
+                  {item}
+                </li>
               ))}
             </ul>
           </div>

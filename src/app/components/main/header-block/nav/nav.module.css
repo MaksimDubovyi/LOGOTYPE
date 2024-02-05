@@ -1,4 +1,9 @@
-.nav{display: flex; color: #707070;}
+.nav{
+    margin-left: 20px;
+    display: flex;
+     color: #707070;
+    }
+
 
 .buttonNav{
     display: flex;
