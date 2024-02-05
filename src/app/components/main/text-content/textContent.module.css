@@ -1,0 +1,38 @@
+.txtBlock{
+    margin: 0px 20px ;
+    @media (min-width: 810px) {
+
+        margin: 0px;
+    }
+}
+.txtBlockLink{
+    text-align: center;
+}
+.txtBlockTitle {
+    background: linear-gradient(90deg, rgba(13,208,186,1) 0%, rgba(42,134,229,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text; 
+    color: transparent;
+    display: inline-block;
+}
+.txtBlockTxt{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #707070;
+}
+.articlesTxt{
+   color: #707070;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.articles{
+    display: block;
+    width:44px;
+    height: 8px;
+    border-radius: 20px;
+    background: rgb(13,208,186);
+    background: linear-gradient(90deg, rgba(13,208,186,1) 0%, rgba(42,134,229,1) 100%);
+}   
