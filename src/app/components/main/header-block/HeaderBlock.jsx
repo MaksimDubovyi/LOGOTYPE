@@ -12,7 +12,7 @@ const HeaderBlock = () => {
           <Nav />
           <Rating />
         </div>
-        <div className={style.rating}></div>
+        <div className={style.navMenu}></div>
       </div>
     </div>
   );
