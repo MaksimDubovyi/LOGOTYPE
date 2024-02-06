@@ -8,8 +8,8 @@
     @media (min-width: 810px) {
         margin: 0 15%;
     }
-
 }
+
 .mainContent{
  display: flex;
  flex-wrap: wrap;

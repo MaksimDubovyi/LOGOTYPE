@@ -5,8 +5,10 @@ import { MoreInfo } from "./more-info/MoreInfo";
 import { useTheme } from "@/app/context";
 import { ContentLeft } from "./content-left/ContentLeft";
 import { ContentRight } from "./content-right/ContentRight";
+import { useState } from "react";
 const HeaderBlock = () => {
   const { theme } = useTheme();
+  const [rating, setRating] = useState(9);
   return (
     <div
       className={`${style.container} 
@@ -19,7 +21,7 @@ const HeaderBlock = () => {
               <ContentLeft />
             </div>
             <div className={style.contentRight}>
-              <ContentRight />
+              <ContentRight rating={rating} />
             </div>
           </div>
         </div>
@@ -27,7 +29,7 @@ const HeaderBlock = () => {
 
       <div className={style.nav}>
         <Nav />
-        <Rating />
+        <Rating setRating={setRating} />
       </div>
       <div className={style.navMenu}>
         <MoreInfo />

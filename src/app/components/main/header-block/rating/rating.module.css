@@ -41,7 +41,8 @@
     border-left: 1px solid rgb(186, 180, 180);
 }
 .item:hover{
-    background-color: rgb(85, 83, 83);
+    background: rgb(13,208,186);
+    background: linear-gradient(90deg, rgba(13,208,186,1) 0%, rgba(42,134,229,1) 100%);
     color: rgb(1, 1, 1)
 }
 .item:active{

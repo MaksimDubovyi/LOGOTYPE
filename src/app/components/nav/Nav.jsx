@@ -90,12 +90,6 @@ const Nav = () => {
             ></span>
           </>
         )}
-        {/* <span
-          onClick={onSearch}
-          className={`${style.searchIcon} ${
-            theme ? style.navItemDark : style.navItemLight
-          }`}
-        ></span> */}
       </div>
     </section>
   );

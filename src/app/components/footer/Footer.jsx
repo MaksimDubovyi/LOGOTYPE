@@ -1,12 +1,13 @@
 import style from "./footer.module.css";
+import { BtnLink } from "@/app/components/ui/btn-link/BtnLink";
+import { useTheme } from "@/app/context";
 import {
   dataLinkFoter,
   dataButtonFoter,
   dataLinkBtn,
   dataLink,
 } from "@/app/dataMap/data";
-import { BtnLink } from "@/app/components/ui/btn-link/BtnLink";
-import { useTheme } from "@/app/context";
+
 const Footer = () => {
   const { theme } = useTheme();
   return (

@@ -11,7 +11,7 @@
 .container div:first-of-type {
     border-top-right-radius:  10px;
   }
-  .container div:last-of-type {
+.container div:last-of-type {
     border-bottom-right-radius:  10px;
   }
 .buttonNav{

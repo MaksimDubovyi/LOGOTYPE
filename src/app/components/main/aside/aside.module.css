@@ -13,19 +13,14 @@
      }
 }
 
-
 .border{
-
     width: 300px;
     height: 600px;
     background-image: url('/icon-main/ads.webp');
     background-size: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-
     border-radius: 20px;
-   
-
 }
 
 .title,.sixe{

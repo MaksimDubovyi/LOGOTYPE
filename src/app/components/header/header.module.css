@@ -1,5 +1,4 @@
 .container{
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,10 +20,9 @@
     flex-wrap: nowrap;
     font-size: 18px;
     color: white;
-@media (min-width: 810px) {
-
+    @media (min-width: 810px) {
     display: flex;
-}
+    }
 }
 
 .nav,.buttonNav{

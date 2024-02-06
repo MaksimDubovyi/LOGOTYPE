@@ -44,6 +44,7 @@
 }
 
 .btnWhite,.btnColor{
+    cursor: pointer;
     background-color: transparent;
     padding: 5px 16px 5px 13px;
     margin-right: 6px;

@@ -1,6 +1,6 @@
 import style from "./contentRight.module.css";
 
-const ContentRight = () => {
+const ContentRight = ({ rating }) => {
   return (
     <div className={style.container}>
       <div className={style.containerImg}>
@@ -15,7 +15,7 @@ const ContentRight = () => {
         <p className={style.txt2}>12 votes</p>
         <div className={style.containerTxt}>
           <h4 className={style.txt3}>Your rating:</h4>
-          <h4 className={style.txt4}>5.2</h4>
+          <h4 className={style.txt4}>{rating}</h4>
         </div>
       </div>
     </div>

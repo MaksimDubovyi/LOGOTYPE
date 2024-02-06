@@ -1,11 +1,12 @@
 import style from "./rating.module.css";
-const values = ["Note", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
 
-const onClick = (event) => {
-  console.log(event.target.innerText);
-};
+const Rating = ({ setRating }) => {
+  const values = ["Note", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
 
-const Rating = () => {
+  const onClick = (event) => {
+    console.log(event.target.innerText);
+    setRating(event.target.innerText);
+  };
   return (
     <div className={style.container}>
       <ul className={style.rating}>
