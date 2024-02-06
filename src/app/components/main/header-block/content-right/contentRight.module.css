@@ -1,9 +1,13 @@
 .container{
+  margin-left: -50px;
     width: 270px;
     height: 86px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    @media (min-width: 900px) {
+      margin-left: 0px;
+   }
 }
 .containerImg{
     width: 80px;
