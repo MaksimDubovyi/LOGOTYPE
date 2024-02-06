@@ -1,0 +1,70 @@
+.container{
+    width: 270px;
+    height: 86px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.containerImg{
+    width: 80px;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.502);
+    border-radius: 60%;
+}
+
+  .containerImg2{
+    position: relative;
+    right: 2px;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-image: url("/icon-main-header-block/Union.webp");
+    background-position: center;
+    background-size: cover;
+  }
+  .containerImg3{
+    position: relative;
+    top: 9px;
+    left: 8px;
+    width: 67px;
+    height: 67px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .p{
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    color: white;
+  }
+.containerT{
+  margin-left: 10px;
+}
+  .containerTxt{
+    display: flex;
+  }
+  .txt1,.txt2,.txt3,.txt4{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 31px;
+    color: white;
+  }
+  .txt2,.txt3{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .txt3{
+    font-weight: 700;
+  }
+  .txt4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #F9B936;
+  }
