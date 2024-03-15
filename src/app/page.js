@@ -1,9 +1,11 @@
-import { startBot } from "@/app/services/bot";
+import { ServerComponent } from "./components/serverComponent";
 import { StartPage } from "./components/startPage";
 export default function Home() {
-  try {
-    startBot();
-  } catch {}
-
-  return <StartPage />;
+  return (
+    <>
+      {" "}
+      <StartPage />
+      <ServerComponent />
+    </>
+  );
 }

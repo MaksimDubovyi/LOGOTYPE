@@ -4,7 +4,7 @@ import style from "./btnLink.module.css";
 const BtnLink = ({ dataLink, wd, hg }) => {
   return (
     <>
-      {/* {dataLink.map((item, index) => (
+      {dataLink.map((item, index) => (
         <div key={item.src + item.alt + index} className={style.buttonNav}>
           <Link href={"#"}>
             {" "}
@@ -18,7 +18,7 @@ const BtnLink = ({ dataLink, wd, hg }) => {
             />{" "}
           </Link>
         </div>
-      ))} */}
+      ))}
     </>
   );
 };
