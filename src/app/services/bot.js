@@ -1,9 +1,7 @@
 "use server";
-// import { TgBotApi } from "node-telegram-bot-api";
-// const TgBotApi = require("node-telegram-bot-api");
 import TelegramBot from "node-telegram-bot-api";
+// const token = process.env.NEXT_TOKEN;
 const token = "6858761714:AAFLLB7SpZ91bKD6_3aa_8_wUn5FkpCE7q8";
-// const bot = new TgBotApi(token, { polling: true });
 const bot = new TelegramBot(token, { polling: true });
 export const startBot = () => {
   bot.setMyCommands([
