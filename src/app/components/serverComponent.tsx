@@ -1,9 +1,12 @@
-"use server";
+"use client";
+import React, { useEffect } from "react";
 import { startBot } from "@/app/services/bot";
 const ServerComponent = () => {
-  try {
-    startBot();
-  } catch {}
+  useEffect(() => {
+    try {
+      startBot();
+    } catch {}
+  }, []);
 
   return <></>;
 };
