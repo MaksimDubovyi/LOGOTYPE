@@ -9,21 +9,21 @@ import {
 } from "@/app/dataMap/data";
 
 const Footer = () => {
-  const { theme } = useTheme();
+  // const { theme } = useTheme();
   return (
     <div className={style.block}>
       <div
-        className={`${style.whiteContainer} ${
-          theme ? style.dark : style.light
-        }`}
+      // className={`${style.whiteContainer} ${
+      //   theme ? style.dark : style.light
+      // }`}
       >
         <div className={style.whiteContainerTitle}>
           <h2>LOGOTYPE</h2>
         </div>
         <div
-          className={`${style.whiteContainerContent} ${
-            theme ? style.dark : style.light
-          }`}
+        // className={`${style.whiteContainerContent} ${
+        //   theme ? style.dark : style.light
+        // }`}
         >
           <p>Lorem Ipsum is simply dummy</p>
           <p>
@@ -33,7 +33,11 @@ const Footer = () => {
         </div>
 
         <div className={style.whiteContainerBtnLink}>
-          <BtnLink dataLink={theme ? dataLink : dataLinkBtn} wd={30} hg={30} />
+          <BtnLink
+            // dataLink={theme ? dataLink : dataLinkBtn}
+            wd={30}
+            hg={30}
+          />
         </div>
       </div>
 
