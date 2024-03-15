@@ -86,6 +86,7 @@ export const startBot = () => {
     else if (text === "/retail_products")
       await bot.sendMessage(chatId, getSeeds(34, 39));
   });
+  console.log("startBot");
 };
 
 const dataProducts = [

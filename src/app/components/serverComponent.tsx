@@ -1,11 +1,13 @@
-"use client";
-import React, { useEffect } from "react";
+import React, { useEffect, useCallback } from "react";
 import { startBot } from "@/app/services/bot";
+
 const ServerComponent = () => {
+  //   const startBotCallback = useCallback(() => {
+  //     startBot();
+  //   }, [startBot]);
+
   useEffect(() => {
-    try {
-      startBot();
-    } catch {}
+    startBot();
   }, []);
 
   return <></>;
